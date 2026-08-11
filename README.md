@@ -1,16 +1,66 @@
-## Hi there 👋
+# Hey there, I'm Ewen 👋
 
-<!--
-**3wxy/3wxy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Student+Developer;Open+Source+Enthusiast;Always+learning)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+> Modifie cette section avec les technologies que TU utilises !
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![Ewen's GitHub stats](https://github-readme-stats.vercel.app/api?username=3wxy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3wxy&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## GitHub Trophies
+
+<div align="center">
+
+![trophy](https://github-profile-trophy.vercel.app/?username=3wxy&theme=tokyonight&no-frame=true&no-bg=true&column=7)
+
+</div>
+
+---
+
+## Contact
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/3wxy)
+
+</div>
+
+---
+
+<div align="center">
+
+![Visitors](https://komarev.com/ghpvc/?username=3wxy&color=blueviolet&style=for-the-badge)
+
+</div>
