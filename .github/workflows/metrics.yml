@@ -2,41 +2,34 @@ name: Metrics
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Runs every 12 hours
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
   push:
     branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # Authentication
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Output
           filename: metrics.svg
-
-          # Plugins to enable
           base: yes
           base_indepth: yes
-          base_hireable: yes
+          base_hireable: no
           commits_authoring: ${{ github.actor }}
           repositories: yes
-          repositories_batch: 5
           repositories_forks: no
           repositories_affiliations: owner
-          users_ignored: ""
           commits: yes
           commits_limit: 500
           commits_load: 100
-          commits_save_days: 30
           activity: yes
           activity_limit: 10
           activity_load: 300
@@ -48,17 +41,6 @@ jobs:
           languages_colors: github
           languages_sections: most-used
           languages_indepth: yes
-          languages_analysis_timeout: 15
-          languages_categories: markup, programming
-          languages_recent_categories: markup, programming
-          languages_recent_load: 300
-          languages_recent_days: 14
-          notable: yes
-          notable_limit: 5
-          notable_from: organization
-          notable.repositories: no
-          notable_indepth: no
-          notable_types: commit
           habits: yes
           habits_limit: 10
           habits_trim: yes
@@ -67,22 +49,12 @@ jobs:
           achievements_threshold: C
           achievements_secrets: true
           achievements_display: detailed
-          achievements_limit: 0
-          twitter: yes
+          notable: yes
+          notable_limit: 5
+          notable_types: commit
           output_action: github-actions
           config_timezone: Europe/Paris
-          config_order: >-
-            base, repositories, commits, languages, habits, activity,
-            notable, achievements
           config_display: 700
           config_padding: 20,30
           config_output: svg
           config_twemoji: yes
-
-      - name: Commit metrics
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: metrics
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
