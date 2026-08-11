@@ -8,6 +8,14 @@
 
 ---
 
+## GitHub Metrics
+
+<a href="https://github.com/3wxy">
+  <img src="https://metrics.lecoq.io/3wxy?template=classic&base=1&base_indepth=1&base_hireable=yes&config.timezone=Europe/Paris&config_display=700&config_padding=20,30&config_twemoji=1&repositories=1&repositories_forks=0&repositories_affiliations=owner&commits=1&commits_limit=500&commits_load=100&commits_save_days=30&activity=1&activity_limit=10&activity_load=300&activity_days=14&languages=1&languages_limit=8&languages_threshold=0%25&languages_other=1&languages_colors=github&languages_sections=most-used&languages_indepth=1&languages_analysis_timeout=15&languages_categories=markup%2C%20programming&languages_recent_categories=markup%2C%20programming&languages_recent_load=300&languages_recent_days=14&habits=1&habits_limit=10&habits_trim=1&habits_sort=recent&achievements=1&achievements_threshold=C&achievements_secrets=1&achievements_display=detailed&achievements_limit=0&notable=1&notable_limit=5&notable_from=organization&notable_types=commit" width="80%" alt="GitHub Metrics" />
+</a>
+
+---
+
 ## Tech Stack
 
 <div align="center">
@@ -23,23 +31,19 @@
 
 </div>
 
-> Modifie cette section avec les technologies que TU utilises !
-
 ---
 
-## GitHub Stats
+## Contribution Activity
 
 <div align="center">
 
-![Ewen's GitHub stats](https://github-readme-stats.vercel.app/api?username=3wxy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3wxy&layout=compact&theme=tokyonight&hide_border=true)
+![Ewen's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=3wxy&theme=tokyonight&hide_border=true)
 
 </div>
 
 ---
 
-## GitHub Trophies
+## Trophies
 
 <div align="center">
 
