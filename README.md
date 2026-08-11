@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm Ewen 👋</h1>
+<h1 align="center">Hey, I'm Ewen !</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/3wxy/3wxy/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
